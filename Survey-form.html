@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./main.css">
+
+</head>
+<body class="bg">
+    <div class="container h-100 bg">
+        <div class="row h-100 pt-4 justify-content-center align-items-center">
+            <div class="col-10 col-md-8 col-lg-6 form">
+                <!-- Form -->
+                <form class="form-example" action="" method="post">
+                    <h1 class="text-center">Survey Form</h1>
+                    <!-- Input fields -->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="name" class="form-control" placeholder="Enter name" id="name">
+                      </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" placeholder="Enter email" id="email" required>
+                </div>    
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="number" class="form-control" type="number" placeholder="Enter number" id="number">
+                </div>
+                <div class="form-group">
+                        <label for="dropdown">State</label>
+                        <select id="dropdown" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                          <option>..</option>
+                        </select>
+                      </div>
+                <div class="form-group">
+                        <label for="gender">Gender:</label>
+
+                     <div class="form-check">
+                        <input class="form-check-input" type="radio" name="name" id="Male" value="option1" checked>
+                        <label class="form-check-label" for="Male">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="name" id="Female" value="option2">
+                        <label class="form-check-label" for="Female">
+                          Female
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="name" id="Other" value="option3" disabled>
+                        <label class="form-check-label" for="Other">
+                         Other
+                        </label>
+                      </div>
+                </div>
+                <div class="form-group">
+                        <div class="col-md-4">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    <!-- End input fields -->
+                    <p class="copyright">&copy; Bootstrap 4 Survey Form tutorial by <a href="https://github.com/gokul112">Gokul</a>.</p>
+                </form>
+                <!-- Form end -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
