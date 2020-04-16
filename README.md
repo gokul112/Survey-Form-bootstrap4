@@ -1,2 +1,1 @@
-# gokul112.github.io-Survey-form
-A survey form using bootstrap 4. Freecodecamp Project
+A survey form using bootstrap 4. Freecodecamp Project in responsive website project
